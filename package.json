@@ -1,0 +1,36 @@
+{
+  "name": "swagger-methods",
+  "version": "0.0.1",
+  "description": "HTTP methods that are supported by Swagger 2.0",
+  "keywords": [
+    "swagger",
+    "http",
+    "methods"
+  ],
+  "author": {
+    "name": "James Messinger",
+    "url": "http://jamesmessinger.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/bigstickcarpet/swagger-methods",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --bail --check-leaks --recursive tests",
+    "upgrade": "ncu --upgradeAll && npm update",
+    "bump": "bump --prompt --tag --push --all",
+    "release": "npm run upgrade && npm test && npm run bump && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigstickcarpet/swagger-methods.git"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "methods": "^1.1.1",
+    "mocha": "^2.3.1",
+    "npm-check-updates": "^2.2.0",
+    "swagger-schema-official": "^2.0.0-96305d9",
+    "version-bump-prompt": "^1.5.1"
+  },
+  "dependencies": {}
+}
