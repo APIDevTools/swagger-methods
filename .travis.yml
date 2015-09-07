@@ -1,0 +1,14 @@
+# Travis CI config
+# http://docs.travis-ci.com/user/languages/javascript-with-nodejs/
+
+sudo: false
+language: node_js
+matrix:
+  include:
+    # IO.js
+    - node_js: iojs
+    
+    # Node
+    - node_js: 0.10
+    - node_js: 0.11
+    - node_js: 0.12
