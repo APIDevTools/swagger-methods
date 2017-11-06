@@ -9,7 +9,7 @@ Swagger Methods
 
 This is an array of lower-case HTTP method names that are supported by the [Swagger 2.0 spec](https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md).
 
-This module is [tested](tests/index.spec.js) against the [Swagger 2.0 schema](https://www.npmjs.com/package/swagger-schema-official)
+This module is [tested](test/index.spec.js) against the [Swagger 2.0 schema](https://www.npmjs.com/package/swagger-schema-official)
 
 
 Installation
