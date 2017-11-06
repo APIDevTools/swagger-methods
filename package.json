@@ -15,7 +15,8 @@
   "homepage": "https://github.com/bigstickcarpet/swagger-methods",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha",
+    "lint": "eslint lib test --fix",
+    "test": "mocha && npm run lint",
     "upgrade": "npm-check -u",
     "bump": "bump --prompt --tag --push --all",
     "release": "npm run upgrade && npm test && npm run bump && npm publish"
@@ -26,6 +27,8 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "eslint": "^4.10.0",
+    "eslint-config-modular": "^4.1.0",
     "methods": "^1.1.2",
     "mocha": "^4.0.1",
     "npm-check": "^5.5.1",
