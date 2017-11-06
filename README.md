@@ -2,7 +2,7 @@ Swagger Methods
 ============================
 #### HTTP methods that are supported by Swagger 2.0
 
-[![npm](http://img.shields.io/npm/v/swagger-methods.svg)](https://www.npmjs.com/package/swagger-methods)
+[![npm](http://img.shields.io/npm/v/swagger-methods.svg?branch=master)](https://www.npmjs.com/package/swagger-methods)
 [![License](https://img.shields.io/npm/l/swagger-methods.svg)](LICENSE)
 [![Build Status](https://api.travis-ci.org/BigstickCarpet/swagger-methods.svg)](https://travis-ci.org/BigstickCarpet/swagger-methods)
 [![Dependencies](https://david-dm.org/BigstickCarpet/swagger-methods.svg)](https://david-dm.org/BigstickCarpet/swagger-methods)
