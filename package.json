@@ -16,7 +16,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha --bail --check-leaks --recursive tests",
-    "upgrade": "ncu --upgradeAll && npm update",
+    "upgrade": "npm-check -u",
     "bump": "bump --prompt --tag --push --all",
     "release": "npm run upgrade && npm test && npm run bump && npm publish"
   },
@@ -28,11 +28,9 @@
     "chai": "^4.1.2",
     "methods": "^1.1.2",
     "mocha": "^4.0.1",
-    "npm-check-updates": "^2.13.0",
-    "swagger-schema-official": "^2.0.0-bab6bed",
+    "npm-check": "^5.5.1",
+    "swagger-schema-official": "2.0.0-bab6bed",
     "version-bump-prompt": "^3.1.2"
   },
-  "dependencies": {
-    "swagger-schema-official": "^2.0.0-d79c205"
-  }
+  "dependencies": {}
 }
