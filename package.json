@@ -9,10 +9,10 @@
   ],
   "author": {
     "name": "James Messinger",
-    "url": "http://bigstickcarpet.com"
+    "url": "https://jamesmessinger.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/bigstickcarpet/swagger-methods",
+  "homepage": "https://github.com/APIDevTools/swagger-methods",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigstickcarpet/swagger-methods.git"
+    "url": "https://github.com/APIDevTools/swagger-methods.git"
   },
   "devDependencies": {
     "chai": "^4.1.2",
