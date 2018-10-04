@@ -20,6 +20,7 @@
   "scripts": {
     "lint": "eslint lib test --fix",
     "test": "mocha && npm run lint",
+    "coverage": "nyc --reporter=text --reporter=lcov mocha",
     "upgrade": "npm-check -u",
     "bump": "bump --prompt --tag --push --all",
     "release": "npm run upgrade && npm test && npm run bump && npm publish"
@@ -30,11 +31,14 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "codacy-coverage": "^3.1.0",
+    "coveralls": "^3.0.2",
     "eslint": "^5.6.1",
     "eslint-config-modular": "^4.2.2",
     "methods": "^1.1.2",
     "mocha": "^5.2.0",
     "npm-check": "^5.9.0",
+    "nyc": "^13.0.1",
     "swagger-schema-official": "2.0.0-bab6bed",
     "version-bump-prompt": "^4.2.1"
   },
