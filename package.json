@@ -1,6 +1,6 @@
 {
   "name": "swagger-methods",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "HTTP methods that are supported by Swagger 2.0",
   "keywords": [
     "swagger",
