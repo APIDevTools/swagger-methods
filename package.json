@@ -31,7 +31,6 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "codacy-coverage": "^3.4.0",
     "coveralls": "^3.0.2",
     "eslint": "^5.11.1",
     "eslint-config-modular": "^6.0.0",
