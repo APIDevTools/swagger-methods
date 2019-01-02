@@ -2,7 +2,10 @@ Swagger Methods
 ============================
 #### HTTP methods that are supported by Swagger 2.0
 
-[![Build Status](https://api.travis-ci.org/APIDevTools/swagger-methods.svg)](https://travis-ci.org/APIDevTools/swagger-methods)
+[![Cross-Platform Compatibility](https://apidevtools.org/img/os-badges.svg)](https://travis-ci.com/APIDevTools/swagger-methods)
+
+[![Build Status](https://api.travis-ci.com/APIDevTools/swagger-methods.svg)](https://travis-ci.com/APIDevTools/swagger-methods)
+
 [![Coverage Status](https://coveralls.io/repos/github/APIDevTools/swagger-methods/badge.svg?branch=master)](https://coveralls.io/github/APIDevTools/swagger-methods?branch=master)
 [![Dependencies](https://david-dm.org/APIDevTools/swagger-methods.svg)](https://david-dm.org/APIDevTools/swagger-methods)
 
