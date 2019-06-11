@@ -1,6 +1,6 @@
 {
   "name": "swagger-methods",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "description": "HTTP methods that are supported by Swagger 2.0",
   "keywords": [
     "swagger",
@@ -22,7 +22,7 @@
     "test": "mocha && npm run lint",
     "coverage": "nyc --reporter=text --reporter=lcov mocha",
     "upgrade": "npm-check -u",
-    "bump": "bump --prompt --tag --push --all",
+    "bump": "bump --tag --push --all",
     "release": "npm run upgrade && npm test && npm run bump"
   },
   "repository": {
