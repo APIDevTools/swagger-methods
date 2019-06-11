@@ -7,5 +7,5 @@ root: true
 extends:
   - modular/best-practices
   - modular/style
-  - modular/es5
+  - modular/es6
   - modular/node
