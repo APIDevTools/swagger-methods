@@ -31,15 +31,15 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "coveralls": "^3.0.2",
-    "eslint": "^5.11.1",
-    "eslint-config-modular": "^6.0.0",
+    "coveralls": "^3.0.4",
+    "eslint": "^5.16.0",
+    "eslint-config-modular": "^7.0.0",
     "methods": "^1.1.2",
-    "mocha": "^5.2.0",
+    "mocha": "^6.1.4",
     "npm-check": "^5.9.0",
-    "nyc": "^13.1.0",
+    "nyc": "^14.1.1",
     "swagger-schema-official": "2.0.0-bab6bed",
-    "version-bump-prompt": "^4.2.2"
+    "version-bump-prompt": "^5.0.2"
   },
   "dependencies": {}
 }
