@@ -16,7 +16,7 @@ This module is [tested](test/index.spec.js) against the [Swagger 2.0 schema](htt
 
 Installation
 --------------------------
-Install using [npm](https://docs.npmjs.com/getting-started/what-is-npm):
+Install using [npm](https://docs.npmjs.com/about-npm/):
 
 ```bash
 npm install swagger-methods
