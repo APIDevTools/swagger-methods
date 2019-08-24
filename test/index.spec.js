@@ -24,11 +24,11 @@ describe("swagger-methods", () => {
 
   it("should match the Swagger 2.0 schema", () => {
     // "pathItem" is the Swagger object that defines the allowed HTTP methods
-    // (see https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md#path-item-object)
+    // (see https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#path-item-object)
     let pathItemProps = swaggerSchema.definitions.pathItem.properties;
 
     // We only care about the "operation" properties
-    // (see https://github.com/swagger-api/swagger-spec/blob/master/versions/2.0.md#operationObject)
+    // (see https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#operationObject)
     let operations = Object.keys(pathItemProps).filter(function (key) {
       let pathItemProp = pathItemProps[key];
       return pathItemProp.$ref === "#/definitions/operation";
