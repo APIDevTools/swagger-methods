@@ -7,7 +7,7 @@ Swagger Methods adheres to [Semantic Versioning](http://semver.org/).
 [v3.0.0](https://github.com/APIDevTools/swagger-methods/tree/v3.0.0) (2020-03-10)
 ----------------------------------------------------------------------------------------------------
 
-- Moved Swagger Methods to the @APIDevTools scope](https://www.npmjs.com/org/apidevtools) on NPM
+- Moved Swagger Methods to the [@APIDevTools scope](https://www.npmjs.com/org/apidevtools) on NPM
 
 - The "swagger-methods" NPM package is now just a wrapper around the scoped "@apidevtools/swagger-methods" package
 
