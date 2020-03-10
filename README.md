@@ -2,11 +2,11 @@ Swagger Methods
 ============================
 #### HTTP methods that are supported by Swagger 2.0
 
-[![Cross-Platform Compatibility](https://apitools.dev/img/os-badges.svg)](https://travis-ci.com/APIDevTools/swagger-methods)
-[![Build Status](https://api.travis-ci.com/APIDevTools/swagger-methods.svg)](https://travis-ci.com/APIDevTools/swagger-methods)
-[![Coverage Status](https://coveralls.io/repos/github/APIDevTools/swagger-methods/badge.svg?branch=master)](https://coveralls.io/github/APIDevTools/swagger-methods?branch=master)
+[![Cross-Platform Compatibility](https://apitools.dev/img/badges/os-badges.svg)](https://github.com/APIDevTools/swagger-methods/blob/master/.github/workflows/CI-CD.yaml)
+[![Build Status](https://github.com/APIDevTools/swagger-methods/workflows/CI-CD/badge.svg)](https://github.com/APIDevTools/swagger-methods/blob/master/.github/workflows/CI-CD.yaml)
 
 [![npm](https://img.shields.io/npm/v/swagger-methods.svg?branch=master)](https://www.npmjs.com/package/swagger-methods)
+[![Coverage Status](https://coveralls.io/repos/github/APIDevTools/swagger-methods/badge.svg?branch=master)](https://coveralls.io/github/APIDevTools/swagger-methods?branch=master)
 [![Dependencies](https://david-dm.org/APIDevTools/swagger-methods.svg)](https://david-dm.org/APIDevTools/swagger-methods)
 [![License](https://img.shields.io/npm/l/swagger-methods.svg)](LICENSE)
 
