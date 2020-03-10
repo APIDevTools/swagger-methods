@@ -1,0 +1,26 @@
+{
+  "name": "swagger-methods",
+  "version": "X.X.X",
+  "description": "HTTP methods that are supported by Swagger 2.0",
+  "keywords": [
+    "swagger",
+    "http",
+    "methods"
+  ],
+  "author": {
+    "name": "James Messinger",
+    "url": "https://jamesmessinger.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/APIDevTools/swagger-methods",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "@apidevtools/swagger-methods": "X.X.X"
+  }
+}
