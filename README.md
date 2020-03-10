@@ -5,10 +5,11 @@ Swagger Methods
 [![Cross-Platform Compatibility](https://apitools.dev/img/badges/os-badges.svg)](https://github.com/APIDevTools/swagger-methods/blob/master/.github/workflows/CI-CD.yaml)
 [![Build Status](https://github.com/APIDevTools/swagger-methods/workflows/CI-CD/badge.svg)](https://github.com/APIDevTools/swagger-methods/blob/master/.github/workflows/CI-CD.yaml)
 
-[![npm](https://img.shields.io/npm/v/swagger-methods.svg?branch=master)](https://www.npmjs.com/package/swagger-methods)
 [![Coverage Status](https://coveralls.io/repos/github/APIDevTools/swagger-methods/badge.svg?branch=master)](https://coveralls.io/github/APIDevTools/swagger-methods?branch=master)
 [![Dependencies](https://david-dm.org/APIDevTools/swagger-methods.svg)](https://david-dm.org/APIDevTools/swagger-methods)
-[![License](https://img.shields.io/npm/l/swagger-methods.svg)](LICENSE)
+
+[![npm](https://img.shields.io/npm/v/@apidevtools/swagger-methods.svg?branch=master)](https://www.npmjs.com/package/@apidevtools/swagger-methods)
+[![License](https://img.shields.io/npm/l/@apidevtools/swagger-methods.svg)](LICENSE)
 
 This is an array of lower-case HTTP method names that are supported by the [Swagger 2.0 spec](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md).
 
@@ -20,7 +21,7 @@ Installation
 Install using [npm](https://docs.npmjs.com/about-npm/):
 
 ```bash
-npm install swagger-methods
+npm install @apidevtools/swagger-methods
 ```
 
 
@@ -28,7 +29,7 @@ Usage
 --------------------------
 
 ```javascript
-var methods = require('swagger-methods');
+var methods = require('@apidevtools/swagger-methods');
 
 methods.forEach(function(method) {
   console.log(method);
