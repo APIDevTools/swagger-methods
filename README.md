@@ -10,6 +10,7 @@ Swagger Methods
 
 [![npm](https://img.shields.io/npm/v/@apidevtools/swagger-methods.svg?branch=master)](https://www.npmjs.com/package/@apidevtools/swagger-methods)
 [![License](https://img.shields.io/npm/l/@apidevtools/swagger-methods.svg)](LICENSE)
+[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen)](https://plant.treeware.earth/APIDevTools/swagger-methods)
 
 This is an array of lower-case HTTP method names that are supported by the [Swagger 2.0 spec](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md).
 
@@ -23,6 +24,7 @@ Install using [npm](https://docs.npmjs.com/about-npm/):
 ```bash
 npm install @apidevtools/swagger-methods
 ```
+
 
 
 Usage
@@ -45,6 +47,7 @@ methods.forEach(function(method) {
 ```
 
 
+
 Contributing
 --------------------------
 I welcome any contributions, enhancements, and bug-fixes.  [File an issue](https://github.com/APIDevTools/swagger-methods/issues) on GitHub and [submit a pull request](https://github.com/APIDevTools/swagger-methods/pulls).
@@ -62,9 +65,14 @@ To build/test the project locally on your computer:
 `npm test`
 
 
+
 License
 --------------------------
 [MIT license](LICENSE). Use it however you want.
+
+This package is [Treeware](http://treeware.earth). If you use it in production, then we ask that you [**buy the world a tree**](https://plant.treeware.earth/APIDevTools/swagger-methods) to thank us for our work. By contributing to the Treeware forest you’ll be creating employment for local families and restoring wildlife habitats.
+
+
 
 Big Thanks To
 --------------------------
