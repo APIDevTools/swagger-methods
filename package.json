@@ -1,6 +1,6 @@
 {
   "name": "@apidevtools/swagger-methods",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "HTTP methods that are supported by Swagger 2.0",
   "keywords": [
     "swagger",
