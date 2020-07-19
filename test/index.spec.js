@@ -11,13 +11,13 @@ describe("swagger-methods", () => {
   });
 
   it("should be all lowercase strings", () => {
-    swaggerMethods.forEach(function (method) {
+    swaggerMethods.forEach((method) => {
       expect(method).to.be.a("string").and.equal(method.toLowerCase());
     });
   });
 
   it("should only have valid HTTP methods", () => {
-    swaggerMethods.forEach(function (method) {
+    swaggerMethods.forEach((method) => {
       expect(httpMethods).to.include(method);
     });
   });
@@ -29,7 +29,7 @@ describe("swagger-methods", () => {
 
     // We only care about the "operation" properties
     // (see https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#operationObject)
-    let operations = Object.keys(pathItemProps).filter(function (key) {
+    let operations = Object.keys(pathItemProps).filter((key) => {
       let pathItemProp = pathItemProps[key];
       return pathItemProp.$ref === "#/definitions/operation";
     });
